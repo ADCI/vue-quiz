@@ -80,7 +80,6 @@ export default {
 </script>
 <style lang="scss" scoped>
   .screen {
-    background-image: url('../assets/2_Image-for-Screens-2-and-3.jpg');
     background-size: cover;
   }
   .fade-enter-active, .fade-leave-active {

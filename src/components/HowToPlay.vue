@@ -33,7 +33,7 @@ export default {
   },
   computed: {
     bg() {
-      const url = require('../assets/1_Image-for-Widget-and-Screen-1.jpg');
+      const url = require('../assets/img.jpg');
       return `url(${url})`;
     },
   },

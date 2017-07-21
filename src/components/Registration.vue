@@ -57,7 +57,7 @@
     },
     computed: {
       bg() {
-        const url = require('../assets/1_Image-for-Widget-and-Screen-1.jpg');
+        const url = require('../assets/img.jpg');
         return `url(${url})`;
       },
       user() {
@@ -69,7 +69,6 @@
     },
     methods: {
       submit() {
-        sessionStorage.setItem('user', JSON.stringify(this.user));
         this.$store.commit('setUser', this.user);
         this.$router.push('/how-to-play');
       },

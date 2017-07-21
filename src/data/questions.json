@@ -1,6 +1,6 @@
 [
   {
-    "img": "2_Image-for-Screens-2-and-3",
+    "img": "img",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae perferendis facere libero explicabo commodi recusandae sequi iste sapiente at esse dignissimos sunt, unde expedita error cupiditate. Non, quasi, nihil!",
     "options": [
       "true",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "img": "3_Image-for-Screens-4-and-5",
+    "img": "img",
     "text": "Libero explicabo commodi recusandae sequi iste sapiente at esse dignissimos sunt, unde expedita error cupiditate. Non, quasi, nihil!",
     "options": [
       "true",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "img": "6_Image-for-Screens-6-and-7",
+    "img": "img",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vitae perferendis facere libero explicabo commodi recusandae sequi iste sapiente at esse dignissimos sunt, unde expedita error cupiditate. Non, quasi, nihil!",
     "options": [
       "5",
