@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "",
+  "homepage": "https://adci.github.io/vue-quiz/",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -10,10 +11,13 @@
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "test": "npm run unit",
-    "lint": "eslint --ext .js,.vue src test/unit/specs"
+    "lint": "eslint --ext .js,.vue src test/unit/specs",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "gh-pages": "^1.0.0",
     "normalize.css": "^7.0.0",
     "vee-validate": "^2.0.0-rc.7",
     "vue": "^2.3.3",
